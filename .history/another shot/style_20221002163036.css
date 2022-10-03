@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+
+}
+.main {
+    background-color: azure;
+    flex: 1 0 1100px;
+    padding: 25px;
+
+}

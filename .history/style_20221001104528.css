@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+main {
+    flex-grow: 2;
+    background-color: lightgray;
+}
+.side1 {
+    flex-grow: 1;
+}
+.side2 {
+    flex-grow: 1;
+}

@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+
+main {
+    flex-grow: 3;
+    background-color: rgb(199, 188, 204);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 2em;
+    grid-gap: 1em;
+    padding: 2em;
+}
+
+.side1 {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: 2em;
+    grid-gap: 10px;
+    margin-right: 1em;
+}
+
+.side2 {
+    flex-grow: 1;
+}
+
+.side1 div,
+main div,
+.side2 div {
+    background-color: lightgray;
+}
+
+#box3 {
+    grid-column: 1/3;
+    grid-row: 8;
+    justify-self: start;
+}
+
+#box4 {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+#box5 {
+    grid-column: 1/3;
+    grid-row: 5;
+}
+
+#box6 {
+    grid-column: 1/3;
+    grid-row: 6;
+}
+
+#box7 {
+    grid-column: 1/3;
+    grid-row: 7;
+}
+
+#box8 {
+    grid-column: 1/3;
+    grid-row: 14;
+    height: 9em;
+}
+
+#boxa {
+    grid-column: 1/7;
+}
+
+#boxb {
+    grid-column: 12;
+}
+
+#boxc {
+    grid-column: 1/4;
+    grid-row: 3;
+}
+#boxd {
+    grid-column: 7/9;
+    grid-row: 3;
+}
+#boxe {
+    grid-column: 9/11;
+    grid-row: 3;
+}
+#boxf {
+    grid-column: 11/13;
+    grid-row: 3;
+}
+#boxg {
+    grid-row: 5/10;
+    grid-column: 1/13
+}
+#boxh {
+    grid-row: 10/15;
+    grid-column: 1/7;
+}
+#boxj {
+    grid-row: 10/15;
+    grid-column: 7/13;
+}
+.side2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr 4fr);
+    grid-gap: 1em;
+    grid-auto-rows: 2em;
+    padding: 2em;
+}
+/*#boxq {
+    border-radius: 50%;
+}
+#boxw {
+    grid-area: 1 / 2 / 1 / 6;
+}*/

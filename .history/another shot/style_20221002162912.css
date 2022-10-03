@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+
+}
+.main {
+    background-color: azure;
+    height: max-content;
+    
+}
